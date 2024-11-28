@@ -36,11 +36,11 @@ public class EmployeeManager {
             System.out.println("Loading data ...");
             try {
                 BufferedWriter w = new BufferedWriter(
-                        new FileWriter("employees.txt", true));
+                 new FileWriter("employees.txt", true));
                 String n = args[0].substring(1);
                 w.write(", " + n);
                 w.close();
-            } catch (Exception e) {}
+            } catch (Exception e) {}S
             System.out.println("Data Loaded.");
         } else if (args[0].contains("?")) {
             System.out.println("Loading data ...");
