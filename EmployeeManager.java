@@ -13,8 +13,8 @@ public class EmployeeManager {
             System.out.println("Loading data ...");
             try {
                 BufferedReader r = new BufferedReader(
-                        new InputStreamReader(
-                           new FileInputStream("employees.txt")));
+                  new InputStreamReader(
+                     new FileInputStream("employees.txt")));
                 String l = r.readLine();
                 String e[] = l.split(",");
                 for (String emp : e) {
@@ -28,7 +28,7 @@ public class EmployeeManager {
             try {
                 BufferedReader r = new BufferedReader(
                         new InputStreamReader(
-                            new FileInputStream("employees.txt")));
+                         new FileInputStream("employees.txt")));
                 String l = r.readLine();
                 System.out.println(l);
                 String e[] = l.split(",");
